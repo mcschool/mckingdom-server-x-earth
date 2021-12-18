@@ -18,19 +18,19 @@
 
     <build>
         <plugins>
-            <dependency>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.4</version>
+                <version>3.7.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
                 </configuration>
-            </dependency>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.8.4</version>
+                <version>3.7.0</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
