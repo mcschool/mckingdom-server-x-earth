@@ -1,4 +1,0 @@
-name: XEarth
-version: ${project.version}
-main: me.mckd.xearth.XEarth
-api-version: 1.17
